@@ -6,9 +6,9 @@ import UserTable from "./tables/UserTable";
 const App = () => {
   // Data
   const usersData = [
-    { id: 1, name: "Tania", username: "floppydiskette" },
-    { id: 2, name: "Craig", username: "siliconeidolon" },
-    { id: 3, name: "Ben", username: "benisphere" },
+    { id: 1, name: "Tony Stark", username: "ironGiant_77" },
+    { id: 2, name: "Bruce Banner", username: "Green_machine" },
+    { id: 3, name: "Steve Rodgers", username: "theCaptain_56" },
   ];
 
   const initialFormState = { id: null, name: "", username: "" };
@@ -44,7 +44,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>CRUD App with Hooks</h1>
+      <h1>CRUD APP</h1>
       <div className="flex-row">
         <div className="flex-large">
           {editing ? (
